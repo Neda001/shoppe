@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <section class="navigation">
+          <div class="logo">
+            <img src="./images/SHOPPE.png" alt="" />
+          </div>
+          <nav>
+            <ul class="main-nav">
+              <li>
+                <a href="index.html">Shop</a>
+              </li>
+              <li>
+                <a href="">blog</a>
+              </li>
+              <li>
+                <a href="">our story</a>
+              </li>
+            </ul>
+            <span>|</span>
+            <ul class="icone-nav">
+              <li>
+                <a href=""><img src="./images/search-icon.png" alt="" /></a>
+              </li>
+              <li>
+                <a href=""><img src="./images/shopping-cart 1.png" alt="" /></a>
+              </li>
+              <li>
+                <a href="my-account.html"
+                  ><img src="./images/user-icon.png" alt=""
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <hr />
+      </header>
+
+      <div class="tabs">
+        <input type="radio" name="tabs" id="tab1" checked="checked" />
+        <label for="tab1">dashboard</label>
+        <div class="tab dashboard">
+          <span>Hello Vitatheme (not Vitatheme?<a href=""> Log out)</a></span>
+          <br />
+          <span>
+            From your account dashboard you can view your
+            <a href="">recent orders</a> , manage your
+            <a href=""> shipping and billing addresses</a>, and edit your
+            <a href="">password and account details</a> .
+          </span>
+        </div>
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2">Orders</label>
+        <div class="tab">
+          <div class="orders">
+            <p class="no-orders">No orders has been made yet.</p>
+            <a>browse product</a>
+          </div>
+        </div>
+        <input type="radio" name="tabs" id="tab3" />
+        <label for="tab3">downloads</label>
+        <div class="tab">
+          <div class="orders">
+            <p class="no-orders">No downloads has been made yet.</p>
+            <a>browse product</a>
+          </div>
+        </div>
+        <input type="radio" name="tabs" id="tab4" />
+        <label for="tab4">adresses</label>
+        <div class="tab">
+          <h5>
+            the following adresses will be used on the checkout page by default
+          </h5>
+          <div class="address-father">
+            <div class="tab-address">
+              <h3>biling address</h3>
+              <span>add</span>
+              <p>You have not set up this type of address yet.</p>
+            </div>
+            <div class="tab-address">
+              <h3>shipping address</h3>
+              <span>add</span>
+              <p>You have not set up this type of address yet.</p>
+            </div>
+          </div>
+        </div>
+        <input type="radio" name="tabs" id="tab5" />
+        <label for="tab5"> account details</label>
+        <div class="tab">
+          <div class="card-account-details">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">
+                    <h2>account details</h2>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <input type="text" placeholder="first name" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" placeholder="last name" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" placeholder="display name" />
+                    <small>This will be how your name </small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="email" placeholder="email address" />
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <h5>password change</h5>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="password"
+                      placeholder="current password(leave blank to leave unchanged)"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="password"
+                      placeholder="new password (leave blank to leave unchanged)"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="password"
+                      placeholder="confirm new password "
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button>save changes</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <input type="radio" name="tabs" id="tab6" />
+        <label for="tab6">logout</label>
+        <div class="tab">
+          <!-- TEST -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
